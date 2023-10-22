@@ -1,0 +1,193 @@
+/*css general*/
+html {
+	scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #cbbafe;
+    color: white;
+}
+div[id]{
+    scroll-margin-top: 80px;
+}
+.logo{
+    display: flex;
+}
+.logo-img{
+    width: 45px;
+    margin-left: 30px;
+}
+header{
+    display: flex;
+    position: fixed;
+    width: 1300px;
+    background-color: white;
+    text-align: center;
+    padding: 20px 0px;
+    box-shadow: 0px 5px 15px rgba(170, 169, 169, 0.63);
+}
+header h1{
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    margin-right: 12px;
+}
+nav a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px 30px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: blueviolet;
+    font-weight: 500;
+    font-size: 20px;
+}
+.active {
+    background-color: blueviolet;
+    color: white;
+}
+.link a:hover{
+    background-color: blueviolet;
+    color: white;
+}
+.link a:active{
+    background-color: blueviolet;
+    color: white;
+}
+/*css inicio*/
+.imgchica{
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 35px;
+    float: left;
+}
+.bienvenido{
+    padding-right: 50px;
+    padding-top: 260px;
+    text-align: justify;
+}
+.bienvenido h1{
+    padding: 10px;
+    font-size: 42px;
+}
+.bienvenido h2{
+    margin-top: 5px;
+    font-size: 22px;
+}
+.bienvenido p{
+    font-weight: 400;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+/*css queson*/
+.queson{
+    background-color: white;
+}
+.queson h1{
+    font-size: 42px;
+    padding: 40px 0px 0px 60px;
+    color: blueviolet;
+}
+.imglenguajes{
+    width: 400px;
+}
+
+.queson p{
+    color: black;
+    margin: 10px 60px;
+    font-weight: 400;
+    text-align: justify;
+}
+/*css elementos*/
+.elementos h1{
+    font-size: 42px;
+    padding: 40px 0px 0px 60px;
+}
+.imgelementos{
+    width: 500px;
+}
+
+.elementos h2{
+    font-size: 28px;
+    margin: 5px 60px;
+    padding-bottom: 5px;
+}
+.elementos h3{
+    font-size: 22px;
+    margin: 5px 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.elementos p{
+    margin: 5px 60px;
+    font-weight: 400;
+    text-align: justify;
+}
+.elementos li{
+    margin: 5px 80px;
+    font-weight: 400;
+    text-align: justify;
+}
+/*css conceptos*/
+.conceptos{
+    background-color: white;
+}
+.conceptos h1{
+    font-size: 42px;
+    padding: 40px 0px 25px 60px;
+    color: blueviolet;
+}
+.conceptos h2{
+    font-size: 28px;
+    margin: 5px 60px;
+    padding-bottom: 5px;
+    color: blueviolet;
+}
+.imgbinario{
+    width: 50px;
+}
+.imgconceptos{
+    width: 400px;
+}
+.conceptos p{
+    color: black;
+    margin: 5px 60px;
+    font-weight: 400;
+    text-align: justify;
+}
+/*css paradigmas*/
+.paradigmas h1{
+    font-size: 42px;
+    padding: 40px 0px 0px 60px;
+}
+.imgcodigo{
+    width: 300px;
+    margin: 20px;
+}
+
+.paradigmas h2{
+    font-size: 28px;
+    margin: 5px 60px;
+    padding-bottom: 5px;
+}
+.paradigmas p{
+    margin: 5px 60px;
+    font-weight: 400;
+    text-align: justify;
+}
+/*css footer*/
+footer{
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+    padding-bottom: 20px;
+}
+footer p{
+    color: black;
+    margin: 10px;
+    font-weight: 400;
+}
